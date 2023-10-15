@@ -1,0 +1,51 @@
+$font-title : Helvetica, sans-serif;
+$color-primary : #DA613F;
+$color-paragraphe :rgb(167, 166, 166);
+$color-background : white;
+$color-h3 : #212121;
+$color-paragraphe : #3C4458;
+$color-h1 : #676D76;
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.card-img{
+
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+
+    width: 400px;
+    background-color:$color-background;
+    margin: 50px;
+    border-radius: 5px;
+    
+
+
+}
+
+.card-title{
+    font-family: $font-title;
+
+
+}
+
+
+.card-content{
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.card-h1{
+    color : $color-h1;
+}
